@@ -1,0 +1,69 @@
+POLÍTICA DE PRIVACIDAD / PRIVACY POLICY
+================================================================================
+Extensión: Mi IP y Geolocalización
+Desarrollador: Mariano Damian
+Última actualización: Noviembre 2026
+Contacto: Mariano Damian
+================================================================================
+
+1. INTRODUCCIÓN
+La extensión "Mi IP y Geolocalización" respeta y protege la privacidad de sus usuarios. Esta política describe cómo se maneja la información técnica necesaria para el funcionamiento de la extensión.
+
+2. INFORMACIÓN PROCESADA
+La extensión únicamente consulta y muestra información pública sobre la conexión a Internet del usuario:
+- Dirección IP pública.
+- Ciudad, Región y País aproximados según la asignación pública de la IP.
+- Nombre del Proveedor de Servicios de Internet (ISP / Organización).
+
+3. FINALIDAD DEL TRATAMIENTO
+Esta información se consulta exclusivamente con el fin de mostrársela al usuario en la interfaz visual emergente (popup) cuando este decide abrir la extensión.
+
+4. ALMACENAMIENTO Y RETENCIÓN
+- La información de IP y geolocalización se almacena de forma 100% local en el navegador del usuario utilizando la API "chrome.storage.local" con fines de caché, permitiendo una visualización instantánea y reduciendo consultas de red innecesarias.
+- El desarrollador NO recopila, NO registra, NO almacena en servidores externos y NO monitorea la dirección IP, el historial de navegación, cookies, contraseñas ni ningún otro dato personal o sensible del usuario.
+
+5. COMUNICACIÓN CON TERCEROS
+Para obtener la información de geolocalización pública de la IP, la extensión realiza solicitudes directas y seguras (HTTPS) a los servicios de resolución de IP:
+- ipwho.is (https://ipwho.is/)
+- ipapi.co (https://ipapi.co/)
+Estas solicitudes transmiten únicamente la solicitud HTTP estándar necesaria para que dichos servicios devuelvan los datos geográficos de la IP pública solicitante. La extensión no envía identificadores únicos de usuario ni datos privados a estos servicios.
+
+6. CUMPLIMIENTO DE POLÍTICAS DE CHROME WEB STORE
+- Cumplimiento de uso limitado: La extensión utiliza los permisos solicitados estrictamente para proporcionar su función principal de visualización de información de IP y red.
+- Cero venta de datos: En ningún caso la información se vende, transfiere ni utiliza con fines publicitarios, de creación de perfiles o comerciales.
+- Sin rastreo: La extensión no realiza seguimiento ni análisis de la actividad en línea del usuario.
+
+7. CONTACTO
+Para cualquier duda o consulta respecto a esta política de privacidad, puede ponerse en contacto con el desarrollador Mariano Damian.
+
+================================================================================
+PRIVACY POLICY (ENGLISH VERSION)
+================================================================================
+
+1. INTRODUCTION
+"Mi IP y Geolocalización" respects and protects user privacy. This policy describes how technical information required for the extension's operation is handled.
+
+2. INFORMATION PROCESSED
+The extension only queries and displays public connection information:
+- Public IP address.
+- Approximate City, Region, and Country based on public IP assignment.
+- Internet Service Provider name (ISP / Organization).
+
+3. PURPOSE
+This information is queried exclusively to display it to the user inside the extension popup when clicked.
+
+4. STORAGE & RETENTION
+- IP and geolocation information is stored 100% locally on the user's browser using the "chrome.storage.local" API for caching purposes, enabling instant load times and reducing unnecessary network requests.
+- The developer DOES NOT collect, DOES NOT log, DOES NOT store on external servers, and DOES NOT monitor IP addresses, browsing history, cookies, credentials, or any personal data.
+
+5. THIRD-PARTY SERVICES
+To obtain public IP geolocation data, the extension makes direct HTTPS requests to:
+- ipwho.is (https://ipwho.is/)
+- ipapi.co (https://ipapi.co/)
+These requests only carry standard HTTP connection metadata required to return public IP details. No personal identifiers are transmitted.
+
+6. CHROME WEB STORE COMPLIANCE
+- Limited Use: The extension uses permissions strictly to deliver its core functionality.
+- No Sale of Data: Information is never sold, transferred, or used for advertising, profiling, or commercial purposes.
+- No Tracking: The extension does not track or profile user web activities.
+================================================================================
